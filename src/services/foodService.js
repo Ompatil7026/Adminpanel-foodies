@@ -1,7 +1,7 @@
 import axios from "axios";
 import BASE_URL from "../config";
 
-const API_URL = `${BASE_URL}/api/foods`;
+const API_URL = `https://foodiesapplicationspringboot-production.up.railway.app/api/foods`;
 
 export const addFood = async (foodData, image) => {
     const formData = new FormData();
